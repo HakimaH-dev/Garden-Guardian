@@ -1,7 +1,7 @@
 
 def input_temperature(temp_str: str) -> int:
-    entier = int(temp_str)
     print(f"Input data is '{temp_str}'")
+    entier = int(temp_str)
     print(f"Temperature is now {entier} C\n")
     return entier
 
