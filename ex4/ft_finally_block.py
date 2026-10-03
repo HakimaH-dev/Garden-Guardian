@@ -32,11 +32,12 @@ def test_watering_system():
     except PlantError as e:
         print(f"Caught PlantError: {e}")
         print("... ending tests and returning to main")
+        return
 
     finally:
         print("Closing watering system\n")
 
-    print("Cleanup always happens, even with errors!")
+        print("Cleanup always happens, even with errors!")
 
 
 def ft_finally_block():
